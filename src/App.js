@@ -4,7 +4,7 @@ import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import Contact from "./layouts/Contact";
 import Content from "./layouts/Content";
-import "./App.scss";
+import "./styles/App.scss";
 
 class App extends Component {
   render() {
@@ -12,7 +12,6 @@ class App extends Component {
       <>
         <BrowserRouter>
           <div className="App">
-            a
             <Header />
             <Content />
             <Contact />

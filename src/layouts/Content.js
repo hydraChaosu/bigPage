@@ -1,10 +1,10 @@
 import React from "react";
 import About from "./About";
 import Projects from "./Projects";
+import "../styles/Content.scss";
 const Content = () => {
   return (
     <div className="content">
-      content
       <About />
       <Projects />
     </div>
