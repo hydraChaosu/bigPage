@@ -1,4 +1,11 @@
+@import "variables";
+
 .footer {
-  background-color: yellow;
   flex-basis: 10vh;
+  text-align: center;
+  line-height: 10vh;
+  background-color: $darkcolor;
+  color: $textcolor;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
