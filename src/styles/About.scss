@@ -1,4 +1,20 @@
+@import "variables";
 .about {
   //   flex-basis: 50%;
-  background-color: pink;
+  // display: flex;
+  background-color: $darkcolor;
+}
+
+.about img {
+  margin-right: 10px;
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 150px;
+  float: left;
+}
+
+p {
+  color: $textcolor;
+  display: block;
+  padding: 5px 0;
 }
