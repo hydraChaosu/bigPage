@@ -1,3 +1,26 @@
+@import "variables";
+
 .nav {
-  background-color: blue;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  li {
+    flex-basis: 50%;
+
+    a {
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+    }
+    a:visited {
+      color: $textcolordarker;
+    }
+  }
 }

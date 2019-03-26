@@ -1,13 +1,22 @@
 @import "variables";
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .App {
   display: flex;
   flex-direction: column;
+  width: 100vw;
   min-height: 100vh;
+  max-width: 100%;
   // padding: 10px;
   background-color: #000;
   // potem na $darkcolor

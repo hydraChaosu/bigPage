@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Contact.scss";
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="email">
         <a href="mailto:Kamil.Sulecki00@gmail.com">
           <i class="fas fa-at" /> Kamil.Sulecki00@gmail.com

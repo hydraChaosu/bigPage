@@ -1,6 +1,13 @@
+@import "variables";
+
 .header {
   display: flex;
   flex-direction: column;
-  flex-basis: 20vh;
-  background-color: red;
+  flex-basis: 100vh;
+  justify-content: flex-start;
+  background-color: $darkcolor-l1;
+  background-image: url("water.jpg");
+  color: $textcolordarker;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
 }

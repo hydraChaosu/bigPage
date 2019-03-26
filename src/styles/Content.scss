@@ -1,7 +1,9 @@
+@import 'variables';
+
 .content {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin: 10px;
-  background-color: orange;
+  padding: 10px;
+  background-color: $darkcolor;
 }

@@ -4,7 +4,6 @@ import "../styles/Header.scss";
 const Header = () => {
   return (
     <header className="header">
-      Header
       <Nav />
     </header>
   );

@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/About.scss";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <img src="https://via.placeholder.com/150/0000FF/808080" alt="" />
 
       <p>I am Kamil Sulecki.</p>
